@@ -99,6 +99,9 @@ video {
 	margin: 0 auto;
 	animation: typewriter 4500ms steps(40, end) 1 normal;
 }
+.p1 {
+    z-index: 10;
+}
 /* @keyframes typewriter {
 	from {
 		width: 0;
@@ -168,9 +171,6 @@ a {
 .fa-linkedin {
     color: rgb(23, 70, 197);
 }
-.fa-codepen {
-    color: rgb(255, 255, 255);
-}
 .aboutme-section img {
     width: 100%;
     position: relative;
@@ -183,6 +183,8 @@ a {
         font-size: 28px;
         width: 40px;
         height: 40px;
+        border: none;
+        background-color: transparent;
     }
     .logo {
         width: 55px;
@@ -246,7 +248,7 @@ a {
         margin: 15% 0;
     } */
     hr {
-        width: 360px;
+        width: 300px;
     }
     .aboutme-title {
         margin: 10% 0;
@@ -275,6 +277,7 @@ a {
     }
     #icons-container {
         margin-top: 18%;
+        font-size: 26px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -285,6 +288,8 @@ a {
         font-size: 30px;
         width: 45px;
         height: 45px;
+        border: none;
+        background-color: transparent;
     }
     h1 {
         font-size: 38px;
@@ -328,13 +333,13 @@ a {
         font-size: 20px;
     }
     hr {
-        width: 740px;
+        width: 720px;
     }
     .aboutme-title {
         margin-top: 15%;
     }
     .destination-container {
-        margin-top: 40%:
+        margin-top: 40%;
     }
     .destination-title {
         margin-top: -3.5%;
@@ -366,6 +371,7 @@ a {
 @media screen and (min-width: 1024px) { 
     p {
         font-size: 18px;
+        padding: 60px 130px;
     }
     #backToTheTopBtn {
         font-size: 30px;
@@ -449,12 +455,20 @@ a {
         font-size: 22px;
     }
     hr {
-        width: 1000px;
+        width: 600px;
     }
     .title {
-        margin-top: -3%;
+        margin-top: -2.5%;
         margin-left: 43%;
         font-size: 32px;
+    }
+    .destination-title {
+        margin-top: -2.5%;
+        margin-left: 41%;
+        font-size: 32px;
+    }
+    .destinations-container {
+        margin-top: 12%;
     }
     .aboutme-section {
         margin-top: -3%;
@@ -481,12 +495,13 @@ a {
 }
 @media screen and (min-width: 1280px) { /*1280px macbook air*/
     p {
-        font-size: 18px;
+        font-size: 20px;
     }
     #backToTheTopBtn {
         font-size: 30px;
         width: 45px;
         height: 45px;
+        /* border: 2px solid #333333b2; */
     }
     h1 {
         font-size: 50px;
@@ -573,7 +588,12 @@ a {
         margin-top: 10%;
     }
     hr {
-        width: 1200px;
+        width: 1180px;
+    }
+    .destination-title {
+        margin-top: -2%;
+        margin-left: 42%;
+        font-size: 32px;
     }
     .title {
         margin-top: -2%;
