@@ -148,7 +148,7 @@ a {
 .aboutme-title {
     margin: 8% 0;
 }
-.title, .destination-title {
+.title, .destination-title, .top-destination-title, .post-title {
     position: absolute;
     background-color: rgb(255, 255, 255);
     margin: 0;
@@ -158,7 +158,7 @@ a {
 #icons-container {
     display: none;
     position: fixed;
-    left: 3%;
+    left: 1%;
     float: left;
     margin-top: 3%;
     top: 30%;
@@ -175,6 +175,63 @@ a {
     width: 100%;
     position: relative;
 }
+.map-container {
+    margin-top: 13%;
+    margin-left: -12%;
+}
+.map-markers, .map-notation {
+    position: absolute;
+}
+.fa-map-marker-alt {
+    color: rgb(28, 126, 255);
+}
+.fa-plane {
+    color:rgb(255, 0, 0);
+    transform: rotate(-90deg);
+}
+.fa-home {
+    color:rgb(0, 122, 37);
+}
+.d1 {
+    text-align: center;
+}
+.image-slide {
+    display: flex;
+    width: 100%;
+    padding: 10% 6%;
+    box-sizing: border-box;
+    height: 100vh;
+} 
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .6s;
+    margin: 0 1%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+} 
+.box > img {
+    width: 100%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+}
+  
+.box > span {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+    text-transform: uppercase;
+}
+.box:hover { 
+    flex: 1 1 20%; 
+}
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
 @media screen and (min-width: 325px){
     p {
         font-size: 14px;
@@ -622,6 +679,169 @@ a {
     #icons-container {
         margin-top: 5%;
         font-size: 36px;
+    }
+}
+@media screen and (min-width: 1440px) { /*1280px macbook air*/
+    p {
+        font-size: 20px;
+    }
+    #backToTheTopBtn {
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+        /* border: 2px solid #333333b2; */
+    }
+    h1 {
+        font-size: 50px;
+        left: 35%;
+        top: 40%;
+    }
+    .openingParagraph {
+        font-size: 20px;
+        top: 55%;
+        left: 38%;
+    }
+    .logo {
+        width: 80px;
+        top: -4px;
+        left: 5px;
+    }
+    .socialMediaBtns {
+        top: 15px;
+        right: 2px;
+    }
+    #github {
+        font-size: 28px;
+        left: 0px;
+    }
+    #codepen {
+        font-size: 28px;
+    }
+    nav ul {
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+    nav li {
+        font-size: 22px;
+        padding: 40px;
+    }
+    .aboutme:hover::after {
+        content: "";
+        position: absolute;
+        left: 463px;
+        top: 50px;
+        border: 1px solid black;
+        width: 90px;
+      }
+    .destinations:hover::after {
+        content: "";
+        position: absolute;
+        left: 627px;
+        top: 50px;
+        border: 1px solid black;
+        width: 110px;
+    }
+    .posts:hover::after {
+        content: "";
+        position: absolute;
+        left: 811px;
+        top: 50px;
+        border: 1px solid black;
+        width: 55px;
+    }
+    .gallery:hover::after {
+        content: "";
+        position: absolute;
+        left: 941px;
+        top: 50px;
+        border: 1px solid black;
+        width: 68px;
+    }
+    /* video {
+        object-position: 140% 90%; 
+        for portsmouth video
+    } */
+    .blue {
+        font-size: 40px;
+        padding: 8px;
+    }
+    .stats li {
+        padding: 40px;
+    }
+    .stats {
+        margin-top: 4%;
+        font-size: 24px;
+    }
+    .aboutme-title {
+        margin-top: 10%;
+    }
+    hr {
+        width: 1180px;
+    }
+    .title {
+        margin-top: -2%;
+        margin-left: 43%;
+        font-size: 32px;
+    }
+    .destination-title {
+        margin-top: -2%;
+        margin-left: 42%;
+        font-size: 32px;
+    }
+    .top-destination-title {
+        margin-top: -2%;
+        margin-left: 41%;
+        font-size: 32px;
+    }
+    .post-title {
+        margin-top: -2%;
+        margin-left: 45%;
+        font-size: 32px;
+    }
+    .aboutme-section {
+        margin-top: 0%;
+        margin-bottom: 15%;
+    }
+    .aboutme-section img {
+        width: 30%;
+        left: -20%;
+        margin-top: 1%;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 22px;
+        width: 480px;
+        margin-left: 55%;
+        margin-top: -19%;
+        line-height: 40px;
+        border: 1px solid rgba(0, 87, 114, 0.288);
+        padding: 26px;
+    }
+    #icons-container {
+        margin-top: 5%;
+        font-size: 36px;
+    }
+    .map-container {
+        margin-top: 13%;
+        margin-left: -12%;
+    }
+    .map {
+        width: 950px;
+        height: 480px;   
+    }
+    .map-key {
+        margin-top: 5%;
+    }
+    .map-markers {
+        font-size: 26px;
+        left: 79%;
+        margin-top: -26%;
+    }
+    .map-notation {
+        left: 85%;
+        font-size: 22px;
+        margin-top: -26%;
+        line-height: 36px;
     }
 }
 .btnIntro {
