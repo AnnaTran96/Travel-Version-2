@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
 </head>
 <body>
     <button id="backToTheTopBtn"><i class="fas fa-angle-double-up"></i></button>
@@ -35,11 +36,12 @@
         </div>
         <div class="stats">
             <ul class="stats">
-                <li><span class="blue">18</span> Countries Visited</li>
+                <li><span class="blue">19</span> Countries Visited</li>
                 <li><span class="blue">2</span> Continents</li>
                 <li><span class="blue">3</span> Countries Pending</li>
             </ul>
         </div>
+        <span class="aboutmenav" id="aboutme">.</span>
         <div class="aboutme-title">
             <hr>
                 <p class="title">About Me</p>
@@ -60,7 +62,9 @@
         </div>
         <section>
             <div class="aboutme-section">
-                <img src="https://i.ibb.co/KjhXhh5/IMG-4787.jpg" alt="GWOC">
+              <div class="img-grid">
+                <img src="Image/IMG_8671.JPG" alt="" class="me-img">
+              </div>
                 <p class="p1">Hi, I'm Anna and I've been continuously travelling around the world and I thought it will be lovely to share all the great places I've been!
                     <br>
                     I hope my travel journey has inspired you to do the same!
@@ -69,6 +73,7 @@
                 </p>
             </div>
         </section>
+        <span class="destinatiosnav" id="destinations">.</span>
         <div class="destinations-title-container">
             <hr>
                 <p class="destination-title">Destinations</p>
@@ -92,13 +97,13 @@
                 </div>
             </div>
         </div>
-        <p class="d1">So far I've visited 18 countries and will be travelling to 4 new countries this year! I will also be returning to China, Hong Kong, Macau and Spain in April!</p>
+        <p class="countries-description">So far I've visited 19 countries and my initial plans was to travel to 4 new countries this year! However, due to the current pandemic, my plans has been changed and I will be travelling another time!</p>
         <div class="top-destination-container">
             <hr>
                 <p class="top-destination-title">Top Destinations</p>
                 <div class="image-slide">
                     <div class="box">
-                        <img src="https://i.ibb.co/P6vzhBK/Screenshot-2020-01-21-at-19-42-25.png" alt="Belgium">
+                        <img src="Image/IMG_4887.jpg" alt="Belgium">
                         <span>Brussels, Belgium</span>
                     </div>
                     <div class="box">
@@ -123,20 +128,140 @@
                     </div>   
                 </div>
         </div>
+        <span class="postsnav" id="posts">.</span>
         <div class="post-container">
             <hr>
-                <p class="post-title">Posts</p>
+            <p class="post-title">Posts</p>
+          <div class="row">
+            <div class="card card-belgium">
+              <div class="card-description">
+                <h3>Belgium</h3>
+                <p>Incredible architecture and scenic small towns on lakes</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197583.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-china">
+              <div class="card-description">
+                <h3>China</h3>
+                <p> Awesome and monumental ancient treasures</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197375.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-germany">
+              <div class="card-description">
+                <h3>Germany</h3>
+                <p>Combination of old world charm and modern urban cities</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197571.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-greece">
+              <div class="card-description">
+                <h3>Greece</h3>
+                <p>Lots of old temples, structures, art and historical places to explore</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197566.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-hungary">
+              <div class="card-description">
+                <h3>Hungary</h3>
+                <p>Romantic architecture, picture-postcard scenery and an abundance of thermal baths</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197584.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-italy">
+              <div class="card-description">
+                <h3>Italy</h3>
+                <p>Spectacular cities, ancient ruins, wonderful museums, soaring mountains, great beaches, and beautiful natural scenery</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197626.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-netherlands">
+              <div class="card-description">
+                <h3>Netherlands</h3>
+                <p>This city offers world-renowned museums, historical monuments, countless of gorgeous canals and a vibrant nightlife</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197441.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-korea">
+              <div class="card-description">
+                <h3>South Korea</h3>
+                <p>South Korea is a pioneer in creating new and innovative structures.</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197582.svg" alt="Avatar" class="avatar-small image">
+            </div>
+            <div class="card card-thailand">
+              <div class="card-description">
+                <h3>Thailand</h3>
+                <p>Each province is bound to have at least one of these majestic wonders, though the most unique and abundant are found in the capital.</p>
+              </div>
+              <img src="https://image.flaticon.com/icons/svg/197/197452.svg" alt="Avatar" class="avatar-small image">
+                  </div>
+            </div>
+          </div>
+          <p class="post-text">So far, I have travelled to 19 countries and the next country I would love to visit is Indonesia! I am someone who enjoys getting a tan and of course, eating! There's no surprise there. I am hoping that sometime in 2021, I am able to go and travel to Indonesia!
+            There are many countries that I wish to go. This is includes:
+            <br>
+            <br>
+            <span class="country-list">Australia, Austria, Cambodia, Croatia, Egypt, Fiji, Japan, Malta, Morocco, New Zealand, Portugal, Switzerland and many more!</span>
+          </p>
         </div>
-        <p>Accusantium nihil, officiis consectetur nam dolore laudantium tempora odit libero aspernatur iste quisquam tempore fugiat quae modi id quasi eveniet eligendi. Eius libero reiciendis in ad? Vitae deserunt suscipit modi quibusdam, soluta aperiam nostrum accusamus tenetur commodi in alias beatae culpa aspernatur nemo eligendi error veritatis ut amet ea perspiciatis delectus iste quia? Dolorem, maxime error, modi perspiciatis molestiae illum explicabo voluptatibus ea veritatis fuga dolores similique aperiam mollitia quibusdam, laboriosam enim minima. Sunt assumenda atque reprehenderit, perferendis iure numquam veniam expedita veritatis laborum id, explicabo hic necessitatibus quisquam eveniet ipsa repellendus eligendi labore provident totam dolorem laboriosam. Cum, inventore.</p>
-        <p>Vel modi sequi sapiente voluptatem vitae illum provident ipsum veritatis beatae laborum impedit ex, laudantium dolor facere perspiciatis quae, voluptate quia debitis quisquam iure maxime? Quia consequuntur facere earum inventore unde beatae eaque sed? Dolores voluptas delectus voluptatibus eaque suscipit eveniet fuga architecto nisi voluptatum, veniam, est numquam laboriosam! Vel impedit commodi obcaecati officia nulla repudiandae nobis reprehenderit maiores, accusamus accusantium assumenda ex perspiciatis aperiam eum praesentium delectus odit dicta maxime a adipisci velit! Animi nesciunt cupiditate reiciendis reprehenderit est totam velit ea nobis doloribus consectetur eos, placeat repudiandae iure voluptas natus sed expedita quod esse adipisci pariatur obcaecati incidunt?</p>
-        <p>Eveniet aut sed voluptas tempore, ducimus natus reprehenderit et deserunt quibusdam vero exercitationem cum nam beatae est quia delectus voluptatum repellendus totam alias similique! Minima ex recusandae neque maxime, consectetur aspernatur expedita nisi iste unde? Voluptatum quae ea libero cumque aperiam minima nulla suscipit, id, corporis est, alias rerum? Ut quo nisi deleniti recusandae quam repellendus voluptas at, voluptates soluta atque, accusamus tempore magni enim quod ex porro, sed ducimus! Vitae similique quasi esse recusandae? Sint fugit doloribus, debitis officiis dolore in id praesentium exercitationem iure expedita vel labore quasi ut sequi at incidunt perspiciatis, repudiandae sed reiciendis laboriosam ullam.</p>
-        <p>Odio earum quo officia cumque doloremque repellat necessitatibus placeat! Doloribus quaerat quas, voluptatem sint omnis tenetur laboriosam illum natus vitae unde provident a quasi, sed ex nihil. Consectetur accusantium suscipit harum nihil at accusamus aut maxime eum quod eius! Earum excepturi dolorem cupiditate nemo animi necessitatibus, cumque consectetur! Nostrum, repellendus aliquam dolorem quibusdam sit minus dolorum ratione facere, dignissimos consequatur assumenda illo perferendis, vel fugit voluptatem quam deserunt veritatis. Mollitia, maiores quas culpa qui tempora ducimus sequi aspernatur nobis nostrum consequuntur, voluptatem laborum illo, ut eius assumenda sit. Fugiat error, quibusdam nemo beatae nobis accusantium! Recusandae nulla odit nostrum veritatis?</p>
-        <p>Harum non assumenda ratione incidunt dolorum quae culpa aliquid! A accusamus quasi error dolorem eius voluptatem necessitatibus, suscipit, dolore porro maxime soluta officiis sint illo. Doloremque, earum vel iste officiis iusto voluptatem ullam esse delectus id veniam qui nam, atque magnam cupiditate eligendi temporibus a corporis fuga ipsam repellat ut aliquam dolores. Molestias magnam ea ex esse unde. Harum facilis veniam laborum voluptatibus deserunt tempore exercitationem eaque doloremque cupiditate inventore facere temporibus alias perspiciatis provident esse quidem, officiis debitis nam excepturi architecto quod magnam, quam, minima aliquam? Ducimus, dolorem libero. Molestias vero dignissimos illo deleniti accusamus ratione facere consequuntur asperiores.</p>
-        <p>Ratione, dolorum rem. Rem veniam cum nam, dolor sed ab quo similique quibusdam reiciendis beatae placeat consequatur molestias voluptates. At voluptatem quis, sunt quidem tempore nemo maiores perferendis ex doloribus voluptates sapiente pariatur consequuntur. Iusto at non molestiae, asperiores nemo earum enim dolores! Nemo ad soluta nobis, voluptatibus dolor rem alias iste fuga harum quos aut perspiciatis, dolores enim explicabo illo odit debitis, possimus magni amet! Fugit vel ab soluta reiciendis sit cupiditate, distinctio quaerat libero, illo modi architecto deleniti repellat obcaecati voluptates laborum tenetur esse adipisci saepe quod ipsam. Minus velit omnis ipsum facilis iste cumque non modi quaerat?</p>
-        <p>Dolore reiciendis rerum veniam laudantium? Maxime illo officiis tenetur, beatae molestias est quidem voluptatem omnis necessitatibus aliquam exercitationem consequuntur quisquam eligendi iste nostrum at aut vitae dolores ratione soluta itaque ab deleniti incidunt. Asperiores molestias molestiae dolorum ipsa magnam autem iste dolorem nemo, enim quos eligendi inventore iure, ad quidem aliquam ipsam unde! Aperiam doloremque dolorum reprehenderit error voluptas dolor expedita ipsam molestiae est. Mollitia adipisci, obcaecati, rerum commodi optio harum dolor facere voluptatem temporibus iure quam esse provident voluptatum dicta ea aliquid? Repudiandae necessitatibus commodi placeat cupiditate, repellendus, tempore molestias ipsa maxime minima hic blanditiis! Nulla soluta amet est.</p>
-        <p>Adipisci, maiores. Maiores, nesciunt provident, architecto debitis cumque consequatur saepe eos similique sunt, ea perferendis dicta? Nemo, vero? Facilis vero aspernatur deleniti architecto, sint fugiat similique suscipit error omnis ut distinctio commodi veniam dolorem explicabo nemo, ratione maiores minus iusto? Laudantium cumque ab autem, error tempora ex eveniet hic enim numquam nisi suscipit perferendis unde esse adipisci dicta ipsum qui. Autem aliquam unde, facere a quod quam tenetur itaque quo incidunt saepe tempora! Numquam assumenda nesciunt minus culpa eum maxime recusandae nam possimus. Consequatur maiores aperiam, ab, reprehenderit cum sapiente fugiat facilis reiciendis ducimus assumenda corporis fuga porro quos eos?</p>
-        <p>Vero alias eveniet soluta officiis saepe, iusto a delectus? Nostrum illo dolorem doloribus? A laudantium dolore consequuntur. Quae praesentium dolorum sapiente aut non quisquam ipsum velit blanditiis vitae voluptas harum laborum totam delectus provident qui veritatis laudantium hic nesciunt, animi reiciendis nam quis fuga quas? Mollitia, sint, debitis, dolore velit ab itaque deserunt sit voluptates maxime officiis perferendis natus inventore quo in a! Ex iure ab modi quaerat laboriosam. Accusantium voluptas, ratione totam nisi recusandae reiciendis velit itaque atque officia saepe nihil suscipit odio vitae adipisci perferendis eos laboriosam explicabo numquam quasi dolorum delectus, consequuntur odit ullam? Voluptatum, sed explicabo?</p>
+        <span class="gallerynav" id="gallery">.</span>
+        <hr>
+            <p class="gallery-title">Gallery</p>
+        <div class="gallery-container">
+            <div class="inner-width">
+              <div class="gallery-grid">
+                <a href="Image/IMG_5997.jpg" class="image">
+                  <img src="Image/IMG_5997.jpg" alt="">
+                </a>
+                <a href="Image/IMG_8079.jpg" class="image">
+                  <img src="Image/IMG_8079.jpg" alt="">
+                </a>
+                <a href="Image/IMG_1677.jpg" class="image">
+                  <img src="Image/IMG_1677.jpg" alt="">
+                </a>
+                <a href="Image/IMG_2382.jpg" class="image">
+                  <img src="Image/IMG_2382.jpg" alt="">
+                </a>
+                <a href="Image/belfast.jpeg" class="image">
+                  <img src="Image/belfast.jpeg" alt="">
+                </a>
+                <a href="Image/IMG_8296.jpg" class="image">
+                  <img src="Image/IMG_8296.jpg" alt="">
+                </a>
+                <a href="Image/img_02.jpeg" class="image">
+                  <img src="Image/img_02.jpeg" alt="">
+                </a>
+                <a href="Image/IMG_4637.jpg" class="image">
+                  <img src="Image/IMG_4637.jpg" alt="">
+                </a>
+                 <a href="Image/IMG_4928.JPG" class="image">
+                  <img src="Image/IMG_4928.JPG" alt="">
+                </a>
+                <a href="Image/IMG_7387.JPG" class="image">
+                  <img src="Image/IMG_7387.JPG" alt="">
+                </a>
+                <a href="Image/IMG_6389.jpg" class="image">
+                  <img src="Image/IMG_6389.jpg" alt="">
+                </a>
+                <a href="Image/IMG_6336.jpg" class="image">
+                  <img src="Image/IMG_6336.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
     </div>
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(".gallery-grid").magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery:{
+            enabled: true
+          }
+        });
+      </script>
 </body>
 </html>
